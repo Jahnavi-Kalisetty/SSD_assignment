@@ -1,5 +1,6 @@
+if (!requireNamespace("ISLR", quietly = TRUE)) install.packages("ISLR")
 library(ISLR)
-data(package="ISLR")
+#data(package="ISLR")
 my_data<-Carseats
 str(my_data)
 head(my_data)
